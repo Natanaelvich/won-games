@@ -23,6 +23,7 @@ describe('<Container />', () => {
         padding-left: calc(3.2rem / 2);
         padding-right: calc(3.2rem / 2);
       }
+
       <div
         class="c0"
       >
