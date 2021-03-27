@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Home from 'templates/Home'
 
 export default function Index(props: any) {
