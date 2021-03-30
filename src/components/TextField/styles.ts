@@ -1,8 +1,28 @@
-import styled, { css } from 'styled-components'
+import styled, { css, DefaultTheme } from 'styled-components'
 
 import { TextFieldProps } from '.'
 
 type IconPositionProps = Pick<TextFieldProps, 'iconPosition'>
+
+const wrapperModifiers = {
+  disabled: (theme: DefaultTheme) => css`
+    ${Label},
+    ${Input},
+    ${Icon} {
+      cursor: not-allowed;
+      color: ${theme.colors.gray};
+      &::placeholder {
+        color: currentColor;
+      }
+    }
+  `
+}
+
+export const Wrapper = styled.div<Pick<TextFieldProps, 'disabled'>>`
+  ${({ theme, disabled }) => css`
+    ${disabled && wrapperModifiers.disabled(theme)}
+  `}
+`
 
 export const InputWrapper = styled.div`
   ${({ theme }) => css`
@@ -51,5 +71,3 @@ export const Label = styled.label`
     cursor: pointer;
   `}
 `
-
-export const Wrapper = styled.div``
