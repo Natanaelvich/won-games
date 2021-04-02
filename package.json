@@ -29,7 +29,8 @@
     "styled-icons": "^10.29.0",
     "styled-media-query": "^2.1.2",
     "polished": "^3.6.6",
-    "react-slick": "^0.27.11"
+    "react-slick": "^0.27.11",
+    "@styled-icons/fa-brands": "^10.22.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
