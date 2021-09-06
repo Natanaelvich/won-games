@@ -4,7 +4,7 @@
 This project uses lot of stuff as:
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [NextJS](https://nextjs.org/)
+- [NextJS](https://nextjs.org/) <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 - [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
